@@ -1,0 +1,59 @@
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+/*.align-content-center{
+    align-content: center;
+}*/
+.flex-row{
+    flex-direction: row;
+}
+.m-0{
+    margin: 0
+}
+.p-0{
+    padding: 0
+}
+body{
+    min-width: 1600px;
+    background-color: azure;
+}
+.page-container{
+    min-width: 1600px;
+}
+header{
+    height: 159px;
+    background-color: gainsboro;
+}
+
+.logo-text{
+    /* Style for "LAMBDA" */
+width: 156px;
+height: 26px;
+color: #000000;
+font-family: "Yeseva One";
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+margin: 47px 0px 86px 179px;
+}
+
+.header-menu{
+    /* Style for "Home About" */
+width: 710px;
+height: 21px;
+font-family: "Gentium Book Basic";
+font-size: 21px;
+font-weight: 700;
+margin: 51px 0px 87px 239px;
+}
+.header-menu{
+    list-style: none;
+    justify-content: space-between
+}
+.header-menu li a{
+    color: #ffffff;
+    text-decoration: none;
+}
