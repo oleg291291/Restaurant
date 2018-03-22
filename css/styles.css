@@ -1,38 +1,38 @@
 @font-face{
     font-family: 'Yeseva One';
-  src: url('../fonts/YesevaOne-Regular_v2.otf');
-  font-weight: normal;
-  font-style: normal;
+    src: url('../fonts/YesevaOne-Regular_v2.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-font-family: "Gentium Book Basic";  
-src: url("../fonts/GenBkBasB.ttf"); 
-font-style: normal; 
-font-weight: normal;
+    font-family: "Gentium Book Basic";  
+    src: url("../fonts/GenBkBasB.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
 }
 @font-face {
-font-family: "Lato";  
-src: url("../fonts/Lato-Regular.ttf"); 
-font-style: normal; 
-font-weight: normal;
+    font-family: "Lato";  
+    src: url("../fonts/Lato-Regular.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
 }
 @font-face {
-font-family: "Open Sans Regular";  
-src: url("../fonts/OpenSans-Regular.ttf"); 
-font-style: normal; 
-font-weight: normal;
+    font-family: "Open Sans Regular";  
+    src: url("../fonts/OpenSans-Regular.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
 }
 @font-face {
-font-family: "Open Sans Bold";  
-src: url("../fonts/OpenSans-Bold.ttf"); 
-font-style: normal; 
-font-weight: normal;
+    font-family: "Open Sans Bold";  
+    src: url("../fonts/OpenSans-Bold.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
 }
 @font-face {
-font-family: "Open Sans Italic";  
-src: url("../fonts/OpenSans-Italic.ttf"); 
-font-style: normal; 
-font-weight: normal;
+    font-family: "Open Sans Italic";  
+    src: url("../fonts/OpenSans-Italic.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
 }
 
 
@@ -43,11 +43,14 @@ font-weight: normal;
 .justify-content-center{
     justify-content: center;
 }
-/*.align-content-center{
-    align-content: center;
-}*/
+.align-items-center{
+    align-items: center;
+}
 .flex-row{
     flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
 }
 .m-0{
     margin: 0
@@ -72,24 +75,24 @@ header{
 }
 .logo-text{
     /* Style for "LAMBDA" */
-width: 156px;
-height: 26px;
-color: white;
-font-family: "Yeseva One";
-font-size: 36px;
-font-weight: 400;
-text-transform: uppercase;
-margin: 47px 0px 86px 179px;
+    width: 156px;
+    height: 26px;
+    color: white;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 47px 0px 86px 179px;
 
 }
 .header-menu{
     /* Style for "Home About" */
-width: 710px;
-height: 21px;
-font-family: "Gentium Book Basic";
-font-size: 21px;
-font-weight: 700;
-margin: 51px 0px 87px 239px;
+    width: 710px;
+    height: 21px;
+    font-family: "Gentium Book Basic";
+    font-size: 21px;
+    font-weight: 700;
+    margin: 51px 0px 87px 239px;
 }
 .header-menu{
     list-style: none;
@@ -110,13 +113,48 @@ margin: 51px 0px 87px 239px;
 .header-main h1{
     /* Style for "the right" */
     text-align: center;
-margin-top: 80px;
-width: 1000px;
-height: 201px;
-opacity: 0.92;
-text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
+    margin: 80px 0 0 0;
+    width: 1000px;
+    height: 201px;
+    opacity: 0.92;
+    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 90px;
+    font-weight: 400;
+}
+.decoration-line{
+    margin-top: 34px;
+    background-image: url('../img/decoration.png');
+    width: 232px;
+    height: 43px;
+}
+.header-main-btns{
+    margin-top: 34px;
+}
+.header-main-btn{
+    width: 228px;
+    height: 57px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.header-main-btn:nth-child(2){
+margin-left: 30px;
+border: 1px solid #ffffff;
+background-color: rgba(255, 255, 255, 0.3);
+opacity: 1;
 color: #ffffff;
-font-family: "Yeseva One";
-font-size: 90px;
+font-family: Lato;
+font-size: 18px;
 font-weight: 400;
+text-transform: uppercase;
+
 }
