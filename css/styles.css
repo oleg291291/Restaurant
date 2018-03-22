@@ -1,11 +1,41 @@
 @font-face{
     font-family: 'Yeseva One';
   src: url('../fonts/YesevaOne-Regular_v2.otf');
-  /*src: url('../fonts/icons-font.eot?39852623#iefix') format('embedded-opentype'),
-
   font-weight: normal;
-  font-style: normal;*/
+  font-style: normal;
 }
+@font-face {
+font-family: "Gentium Book Basic";  
+src: url("../fonts/GenBkBasB.ttf"); 
+font-style: normal; 
+font-weight: normal;
+}
+@font-face {
+font-family: "Lato";  
+src: url("../fonts/Lato-Regular.ttf"); 
+font-style: normal; 
+font-weight: normal;
+}
+@font-face {
+font-family: "Open Sans Regular";  
+src: url("../fonts/OpenSans-Regular.ttf"); 
+font-style: normal; 
+font-weight: normal;
+}
+@font-face {
+font-family: "Open Sans Bold";  
+src: url("../fonts/OpenSans-Bold.ttf"); 
+font-style: normal; 
+font-weight: normal;
+}
+@font-face {
+font-family: "Open Sans Italic";  
+src: url("../fonts/OpenSans-Italic.ttf"); 
+font-style: normal; 
+font-weight: normal;
+}
+
+
 
 .d-flex{
     display: flex;
@@ -36,7 +66,6 @@ header{
     height: 159px;
     background-color: gainsboro;
 }
-
 .logo-text{
     /* Style for "LAMBDA" */
 width: 156px;
@@ -48,7 +77,6 @@ font-weight: 400;
 text-transform: uppercase;
 margin: 47px 0px 86px 179px;
 }
-
 .header-menu{
     /* Style for "Home About" */
 width: 710px;
