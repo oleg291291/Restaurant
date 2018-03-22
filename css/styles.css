@@ -63,19 +63,24 @@ body{
     min-width: 1600px;
 }
 header{
-    height: 159px;
+    height: 750px;
     background-color: gainsboro;
+    background-image: url("../img/bg.png")
+}
+.header-top{
+    height: 159px;
 }
 .logo-text{
     /* Style for "LAMBDA" */
 width: 156px;
 height: 26px;
-color: #000000;
+color: white;
 font-family: "Yeseva One";
 font-size: 36px;
 font-weight: 400;
 text-transform: uppercase;
 margin: 47px 0px 86px 179px;
+
 }
 .header-menu{
     /* Style for "Home About" */
@@ -101,4 +106,17 @@ margin: 51px 0px 87px 239px;
 }
 .social-icons-top i{
     color: #dab33e;
+}
+.header-main h1{
+    /* Style for "the right" */
+    text-align: center;
+margin-top: 80px;
+width: 1000px;
+height: 201px;
+opacity: 0.92;
+text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
+color: #ffffff;
+font-family: "Yeseva One";
+font-size: 90px;
+font-weight: 400;
 }
