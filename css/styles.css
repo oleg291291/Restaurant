@@ -1,3 +1,12 @@
+@font-face{
+    font-family: 'Yeseva One';
+  src: url('../fonts/YesevaOne-Regular_v2.otf');
+  /*src: url('../fonts/icons-font.eot?39852623#iefix') format('embedded-opentype'),
+
+  font-weight: normal;
+  font-style: normal;*/
+}
+
 .d-flex{
     display: flex;
 }
@@ -59,7 +68,9 @@ margin: 51px 0px 87px 239px;
 }
 .social-icons-top{
     margin: 50px 0 0 20px;
-    color: #dab33e;
     font-size: 21px;
     font-weight: 400;
+}
+.social-icons-top i{
+    color: #dab33e;
 }
